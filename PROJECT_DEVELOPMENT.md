@@ -58,7 +58,7 @@ When the game begins, the number of rounds and players will be chosen. Afterward
 ## Interface & Card Design
 
 ![Template for what a card will look like](/Images/CardDesign.png "Card Design") 
-![Sketch of how the game will look](/Images/InterfaceSketch.png "Interface Sketch") 
+![Sketch of how the game will look](/Images/InterfaceSketch.jpg "Interface Sketch") 
 
 The game will show the players card to him, while the other players cards are hidden. When an attribute is selected and needs to be compared, a card will come up in the middle of the screen and all players cards will be revealed. Whichever player's card is the closest matching wins and gets that card added to their pile.
 
