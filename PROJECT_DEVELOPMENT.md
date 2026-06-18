@@ -48,6 +48,7 @@ The game will require 5 different classes - the Car, Card, Deck, Player & Game. 
 
 ## Class Diagram
 
+![Class diagram explaining the relationship of each class](/Images/ClassDiagram.png "UML Class Diagram") 
 
 ## Game Mechanics Design
 
