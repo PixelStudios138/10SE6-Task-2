@@ -51,7 +51,15 @@ The game will require 5 different classes - the Car, Card, Deck, Player & Game. 
 ![Class diagram explaining the relationship of each class](/Images/ClassDiagram.png "UML Class Diagram") 
 
 ## Game Mechanics Design
+When the game begins, the number of rounds and players will be chosen. Afterwards, each player will get a certain amount of cards based on how many players there are. When the round begins, the first player will select an attribute to compare. Each player selects a card, and the values of all those cards is displayed, and whoever has the highest value wins the round and gets all the cards that were played. If 2 cards both have the same value, the cards of the other players will be placed back into the deck. The winner is the last one left when all the other players lose all their cards. The game will go on until a winner is determined.
+
+![Structure chart](/Images/StructureChart.png "Structure Chart") 
 
 ## Interface & Card Design
+
+![Template for what a card will look like](/Images/CardDesign.png "Card Design") 
+![Sketch of how the game will look](/Images/InterfaceSketch.png "Interface Sketch") 
+
+The game will show the players card to him, while the other players cards are hidden. When an attribute is selected and needs to be compared, a card will come up in the middle of the screen and all players cards will be revealed. Whichever player's card is the closest matching wins and gets that card added to their pile.
 
 ## Social, Ethical & Legal Implications
