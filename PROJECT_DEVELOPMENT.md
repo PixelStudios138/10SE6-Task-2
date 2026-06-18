@@ -43,10 +43,11 @@ The game will require 5 different classes - the Car, Card, Deck, Player & Game. 
 |Car   |<ul><li>Top Speed</li><li>Range</li><li>Engine Size</li><li>Fuel Economy</li><li>Power-To-Weight Ratio</li><li>ANCAP Safety Rating</li></ul>|N/A|Contains all the attributes that each individual Card will contain|
 |Card  |N/A|<ul><li>Display Car Data</li></ul>|Holds the data of it's car. It makes up the deck and is what the player uses to try to win|
 |Deck  |N/A|<ul><li>Shuffle Deck</li><li>Deal Card</li></ul>|Made up of up to 30 cards. Its job is to shuffle the cards and deal them to the players|
-|Player|L/100km                                                         |km/h              |km/h              |
-|Game  |kW/t                                                            |km/h              |km/h              |
+|Player|<ul><li>Name</li><li>Hand</li><li>Score</li></ul>|<ul><li>Select Attribute</li><li>Play Card</li><li>Receive Card</li></ul>|Each player in the game. Holds cards and selects the attributes to be compared|
+|Game  |<ul><li>Rounds</li></ul>|<ul><li>Start Game</li><li>Play Round</li><li>Compare Cards</li><li>Choose Winner</li><li>Manage Draw</li><li>End Game</li></ul>|Main game loop that handles playing the game, how many rounds there are, and determining who wins|
 
 ## Class Diagram
+
 
 ## Game Mechanics Design
 
